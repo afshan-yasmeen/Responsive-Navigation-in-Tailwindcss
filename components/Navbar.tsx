@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <div>
             <nav
-                className='bg-black fixed w-full top-0 left-0 right-0 z-10'>
+                className='bg-blue-900/80 md:bg-blue-900/50 fixed w-full top-0 left-0 right-0 z-10'>
                 <div className='justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8'>
 
                     <div>
@@ -45,25 +45,25 @@ ${navbar ? 'p-12 md:p-0 block' : 'hidden'}
 ` }>
     <ul className='h-screen md:h-auto items-center justify-center md:flex'>
         <li className='pb-6 text-xl text-white py-2 md:px-6 
-        text-center border-b-2 md:border-b-0 hover:bg-purple-600'>
+        text-center border-b-2 md:border-b-0 hover:underline'>
 <Link href={'#about'} onClick={()=>setNavbar(!navbar)}>
     About
 </Link>
         </li>
         <li className='pb-6 text-xl text-white py-2 md:px-6 
-        text-center border-b-2 md:border-b-0 hover:bg-purple-600'>
+        text-center border-b-2 md:border-b-0 hover:underline'>
 <Link href={'#blogs'} onClick={()=>setNavbar(!navbar)}>
     Blog
 </Link>
         </li>
         <li className='pb-6 text-xl text-white py-2 md:px-6 
-        text-center border-b-2 md:border-b-0 hover:bg-purple-600'>
+        text-center border-b-2 md:border-b-0 hover:underline'>
 <Link href={'#contact'} onClick={()=>setNavbar(!navbar)}>
     Contact
 </Link>
         </li>
         <li className='pb-6 text-xl text-white py-2 md:px-6 
-        text-center border-b-2 md:border-b-0 hover:bg-purple-600'>
+        text-center border-b-2 md:border-b-0 hover:underline'>
 <Link href={'#projects'} onClick={()=>setNavbar(!navbar)}>
     Projects
 </Link>
